@@ -5,3 +5,5 @@ class ProjectPage extends React.Component {
     return <h1>Project Page</h1>;
   }
 }
+
+export default ProjectPage;
