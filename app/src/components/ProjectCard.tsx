@@ -9,10 +9,10 @@ interface IProjectCardState {}
 
 interface IProjectCardProps {
   id?: Number;
-  title?: String;
-  image?: String;
-  description?: String;
-  organization?: String;
+  title?: string;
+  image?: string;
+  description?: string;
+  organization?: string;
 }
 
 export class ProjectCard extends React.Component<
@@ -20,13 +20,14 @@ export class ProjectCard extends React.Component<
   IProjectCardState
 > {
   render() {
+    console.log(this.props);
     return (
       <Card className="project-card-root" style={{ maxWidth: 345, margin: 50 }}>
         <CardActionArea>
           <CardMedia
             className="project-card-image"
-            style={{ height: 140 }}
-            image="/static/images/cards/contemplative-reptile.jpg"
+            style={{ height: 150 }}
+            image={this.props.image}
             title="Contemplative Reptile"
           />
           <CardContent>

@@ -15,7 +15,8 @@ export const config = {
     {
       id: 0,
       title: "Project Title",
-      image: "/path/to/project/image",
+      image:
+        "https://material-ui.com/static/images/cards/contemplative-reptile.jpg",
       description: "This is where the project description goes.",
       organization: "My Org",
     },
