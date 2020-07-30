@@ -3,6 +3,7 @@ import { Route, Switch, Router } from "react-router-dom";
 import { history } from "./components/history";
 import LandingPage from "./content/LandingPage/LandingPage";
 import ProjectPage from "./content/ProjectPage/ProjectPage";
+import { config } from "./data/config";
 
 import "./App.css";
 import "./components/Header.tsx";
@@ -18,7 +19,7 @@ function App() {
             <LandingPage></LandingPage>
           </Route>
           <Route exact path="/projects">
-            <ProjectPage></ProjectPage>
+            <ProjectPage projects={config.projects}></ProjectPage>
           </Route>
         </Switch>
       </Router>

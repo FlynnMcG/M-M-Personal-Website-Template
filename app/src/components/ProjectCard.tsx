@@ -22,7 +22,7 @@ export class ProjectCard extends React.Component<
   render() {
     console.log(this.props);
     return (
-      <Card className="project-card-root" style={{ maxWidth: 345, margin: 50 }}>
+      <Card className="project-card-root" style={{ maxWidth: 345 }}>
         <CardActionArea>
           <CardMedia
             className="project-card-image"

@@ -20,5 +20,53 @@ export const config = {
       description: "This is where the project description goes.",
       organization: "My Org",
     },
+    {
+      id: 1,
+      title: "Project Title 2",
+      image:
+        "https://material-ui.com/static/images/cards/contemplative-reptile.jpg",
+      description: "This is where the project description goes.",
+      organization: "My Org",
+    },
+    {
+      id: 2,
+      title: "Project Title 3",
+      image:
+        "https://material-ui.com/static/images/cards/contemplative-reptile.jpg",
+      description: "This is where the project description goes.",
+      organization: "My Org",
+    },
+    {
+      id: 3,
+      title: "Project Title 4",
+      image:
+        "https://material-ui.com/static/images/cards/contemplative-reptile.jpg",
+      description: "This is where the project description goes.",
+      organization: "My Org",
+    },
+    {
+      id: 4,
+      title: "Project Title 5",
+      image:
+        "https://material-ui.com/static/images/cards/contemplative-reptile.jpg",
+      description: "This is where the project description goes.",
+      organization: "My Org",
+    },
+    {
+      id: 5,
+      title: "Project Title 6",
+      image:
+        "https://material-ui.com/static/images/cards/contemplative-reptile.jpg",
+      description: "This is where the project description goes.",
+      organization: "My Org",
+    },
+    {
+      id: 6,
+      title: "Project Title 7",
+      image:
+        "https://material-ui.com/static/images/cards/contemplative-reptile.jpg",
+      description: "This is where the project description goes.",
+      organization: "My Org",
+    },
   ],
 };
