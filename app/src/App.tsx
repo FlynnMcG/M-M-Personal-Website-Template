@@ -11,7 +11,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <>
+    <div className="app-div">
       <Header />
       <Router history={history}>
         <Switch>
@@ -23,7 +23,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-    </>
+    </div>
   );
 }
 
