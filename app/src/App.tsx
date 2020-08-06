@@ -12,7 +12,14 @@ import Header from "./components/Header";
 function App() {
   return (
     <div className="app-div">
-      <Header />
+      <Header
+        FirstName={config.firstName}
+        LastName={config.lastName}
+        GitHub={config.github}
+        LinkedIn={config.linkedin}
+        Email={config.email}
+        twitterURL={config.twitter}
+      />
       <Router history={history}>
         <Switch>
           <Route exact path="/">
