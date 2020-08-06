@@ -4,28 +4,37 @@ import { history } from "./components/history";
 import LandingPage from "./content/LandingPage/LandingPage";
 import ProjectPage from "./content/ProjectPage/ProjectPage";
 import ResumePage from "./content/ResumePage/ResumePage";
+import { config } from "./data/config";
+
 import "./App.css";
 import "./components/Header.tsx";
 import Header from "./components/Header";
 
 function App() {
   return (
-    <>
-      <Header />
+    <div className="app-div">
+      <Header
+        FirstName={config.firstName}
+        LastName={config.lastName}
+        GitHub={config.github}
+        LinkedIn={config.linkedin}
+        Email={config.email}
+        twitterURL={config.twitter}
+      />
       <Router history={history}>
         <Switch>
           <Route exact path="/">
             <LandingPage></LandingPage>
           </Route>
           <Route exact path="/projects">
-            <ProjectPage></ProjectPage>
+            <ProjectPage projects={config.projects}></ProjectPage>
           </Route>
           <Route exact path="/resume">
             <ResumePage></ResumePage>
           </Route>
         </Switch>
       </Router>
-    </>
+    </div>
   );
 }
 
