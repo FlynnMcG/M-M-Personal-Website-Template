@@ -1,9 +1,9 @@
 export const config = {
   firstName: "Jane",
   lastName: "Doe",
-  github: "github.com",
-  linkedin: "linkedin.com",
-  twitter: "twitter.com",
+  github: "https://github.com",
+  linkedin: "https://www.linkedin.com/feed/",
+  twitter: "https://twitter.com",
   profile_picture: "/path/to/profile/pic",
   location: "New York",
   bio: "about me",

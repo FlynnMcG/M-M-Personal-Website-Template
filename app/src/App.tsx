@@ -17,6 +17,8 @@ function App() {
         LastName={config.lastName}
         GitHub={config.github}
         LinkedIn={config.linkedin}
+        Email={config.email}
+        twitterURL={config.twitter}
       />
       <Router history={history}>
         <Switch>
