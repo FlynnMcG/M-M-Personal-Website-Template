@@ -1,0 +1,22 @@
+.landing-avatar {
+  height: 30%;
+  height: 30% !important;
+  width: 30% !important;
+}
+
+.landing-page {
+}
+
+.landing-text {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.landing-image {
+  padding-top: 5vh;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
