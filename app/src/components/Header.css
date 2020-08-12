@@ -1,0 +1,19 @@
+.personal-site-header {
+  background-color: black;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: black !important;
+}
+
+.header-button-group-right {
+  position: fixed !important;
+  right: 0 !important;
+  padding-right: 24px;
+}
+
+.header-button-group-left {
+  position: fixed !important;
+  left: 0 !important;
+  padding-left: 24px;
+}
