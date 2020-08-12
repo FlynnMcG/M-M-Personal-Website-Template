@@ -1,3 +1,19 @@
-.profile-page {
-  padding-left: 10%;
+.project-page {
+}
+
+.project-header {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+.project-grid {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+}
+
+.project-grid-row {
+  margin-bottom: 1rem !important;
 }

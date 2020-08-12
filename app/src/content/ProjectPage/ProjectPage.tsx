@@ -42,7 +42,13 @@ class ProjectPage extends React.Component<
           );
         }
         rows.push(
-          <Grid container item xs={"auto"} spacing={1}>
+          <Grid
+            className="project-grid-row"
+            container
+            item
+            xs={"auto"}
+            spacing={1}
+          >
             {child}
           </Grid>
         );
@@ -51,9 +57,9 @@ class ProjectPage extends React.Component<
     }
 
     return (
-      <div className="profile-page">
-        <h1>Project Page</h1>
-        <Grid container spacing={1}>
+      <div className="project-page">
+        <h1 className="project-header">Project Page</h1>
+        <Grid className="project-grid" container spacing={1}>
           {rows}
         </Grid>
       </div>

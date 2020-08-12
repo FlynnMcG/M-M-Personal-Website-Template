@@ -4,7 +4,8 @@ export const config = {
   github: "https://github.com",
   linkedin: "https://www.linkedin.com/feed/",
   twitter: "https://twitter.com",
-  profile_picture: "/path/to/profile/pic",
+  profile_picture:
+    "https://i.pinimg.com/originals/a1/30/86/a130864e6d6db6899ca996b0691113f8.jpg",
   location: "New York",
   bio: "about me",
   phone: "1234567890",
@@ -63,6 +64,14 @@ export const config = {
     {
       id: 6,
       title: "Project Title 7",
+      image:
+        "https://material-ui.com/static/images/cards/contemplative-reptile.jpg",
+      description: "This is where the project description goes.",
+      organization: "My Org",
+    },
+    {
+      id: 7,
+      title: "Project Title 8",
       image:
         "https://material-ui.com/static/images/cards/contemplative-reptile.jpg",
       description: "This is where the project description goes.",

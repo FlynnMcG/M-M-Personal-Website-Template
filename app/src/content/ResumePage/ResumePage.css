@@ -1,0 +1,14 @@
+.container {
+  position: relative;
+  padding-top: 3vh !important;
+}
+
+.resume {
+  top: 0;
+  right: 0;
+}
+
+.appBar {
+  width: 613px !important;
+  margin: 0;
+}

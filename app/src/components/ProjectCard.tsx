@@ -7,6 +7,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 import ProjectModal from "./ProjectModal";
 import Button from "@material-ui/core/Button";
+import "./ProjectCard.css";
 interface IProjectCardState {}
 
 interface IProjectCardProps {

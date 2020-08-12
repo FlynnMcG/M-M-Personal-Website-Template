@@ -21,19 +21,30 @@ function App() {
         Email={config.email}
         twitterURL={config.twitter}
       />
-      <Router history={history}>
-        <Switch>
-          <Route exact path="/">
-            <LandingPage></LandingPage>
-          </Route>
-          <Route exact path="/projects">
-            <ProjectPage projects={config.projects}></ProjectPage>
-          </Route>
-          <Route exact path="/resume">
-            <ResumePage></ResumePage>
-          </Route>
-        </Switch>
-      </Router>
+      <div className="app-content">
+        <Router history={history}>
+          <Switch>
+            <Route exact path="/">
+              <LandingPage
+                firstName={config.firstName}
+                lastName={config.lastName}
+                imagePath={config.profile_picture}
+                location={config.location}
+                bio={config.bio}
+                phone={config.phone}
+                email={config.email}
+                currentRole={config.current_role}
+              ></LandingPage>
+            </Route>
+            <Route exact path="/resume">
+              <ResumePage></ResumePage>
+            </Route>
+            <Route exact path="/projects">
+              <ProjectPage projects={config.projects}></ProjectPage>
+            </Route>
+          </Switch>
+        </Router>
+      </div>
     </div>
   );
 }
