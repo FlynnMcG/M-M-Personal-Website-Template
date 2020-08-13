@@ -29,17 +29,27 @@ class LandingPage extends React.Component<
             className="landing-avatar"
           />
         </div>
-        <div className="landing-text">
-          <h1>
-            {this.props.firstName} {this.props.lastName}
-          </h1>
-          <h5>{this.props.currentRole}</h5>
-          <h5>{this.props.location}</h5>
-          <h5>{this.props.bio} </h5>
-          <h5>
-            <div>{this.props.email}</div>
-            <div>{this.props.phone}</div>
-          </h5>
+        <div>
+          <div className="landing-text">
+            <h1>
+              {this.props.firstName} {this.props.lastName}
+            </h1>
+          </div>
+          <div className="landing-text">
+            <h5>{this.props.currentRole}</h5>
+          </div>
+          <div className="landing-text">
+            <h5>{this.props.location}</h5>
+          </div>
+          <div className="landing-text">
+            <h5>{this.props.bio} </h5>
+          </div>
+          <div className="landing-text">
+            <h5>
+              <div>{this.props.email}</div>
+              <div>{this.props.phone}</div>
+            </h5>
+          </div>
         </div>
       </div>
     );

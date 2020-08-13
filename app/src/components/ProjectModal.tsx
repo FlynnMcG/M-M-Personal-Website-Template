@@ -22,9 +22,11 @@ class ProjectModal extends React.Component<
     const body = (
       <div>
         <img src={this.props.image} alt="Italian Trulli" />
-        <h1 id="simple-modal-description">{this.props.title}</h1>
-        <h4>{this.props.organization}</h4>
-        <p>{this.props.description}</p>
+        <div className="project-modal-text-body">
+          <h1 id="simple-modal-description">{this.props.title}</h1>
+          <h4>{this.props.organization}</h4>
+          <p>{this.props.description}</p>
+        </div>
       </div>
     );
     var open = false;
