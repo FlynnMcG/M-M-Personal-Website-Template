@@ -3,6 +3,7 @@ import { Route, Switch, Router } from "react-router-dom";
 import { history } from "./components/history";
 import LandingPage from "./content/LandingPage/LandingPage";
 import ProjectPage from "./content/ProjectPage/ProjectPage";
+import ResumePage from "./content/ResumePage/ResumePage";
 import { config } from "./data/config";
 
 import "./App.css";
@@ -34,6 +35,9 @@ function App() {
                 email={config.email}
                 currentRole={config.current_role}
               ></LandingPage>
+            </Route>
+            <Route exact path="/resume">
+              <ResumePage></ResumePage>
             </Route>
             <Route exact path="/projects">
               <ProjectPage projects={config.projects}></ProjectPage>
