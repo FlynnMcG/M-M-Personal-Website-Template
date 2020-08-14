@@ -1,5 +1,6 @@
 import React from "react";
 import { Document, Page, pdfjs } from "react-pdf";
+import { Link } from "react-router-dom";
 import PDF from "../../data/documents/Resume.pdf";
 import { AppBar, Container, Button, Toolbar, IconButton } from "@material-ui/core";
 import GetAppIcon from "@material-ui/icons/GetApp";
@@ -23,9 +24,11 @@ class ResumePage extends React.Component {
       <Container className="container" maxWidth="sm">
         <AppBar className="appBar" position="static">
           <Toolbar>
-            <IconButton edge="start" color="inherit" aria-label="menu">
-              <GetAppIcon />
-            </IconButton>
+            <Link className="downloadLink" to={PDF} target="_blank" download>
+              <IconButton edge="start" color="inherit" aria-label="menu">
+                <GetAppIcon></GetAppIcon>
+              </IconButton>
+            </Link>
           </Toolbar>
         </AppBar>
 

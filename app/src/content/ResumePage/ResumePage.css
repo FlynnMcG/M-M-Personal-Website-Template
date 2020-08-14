@@ -1,6 +1,7 @@
 .container {
   position: relative;
-  padding-top: 3vh !important;
+  padding-top: 11vh !important;
+  padding-bottom: 3vh !important;
 }
 
 .resume {
@@ -11,4 +12,8 @@
 .appBar {
   width: 613px !important;
   margin: 0;
+}
+
+.downloadLink {
+  color: white;
 }
