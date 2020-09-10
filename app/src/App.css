@@ -16,6 +16,7 @@
 .app-div {
   background-color: dimgray;
   min-height: 100vh;
+  height: max-content;
   color: white;
 }
 

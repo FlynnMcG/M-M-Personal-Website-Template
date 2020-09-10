@@ -1,5 +1,5 @@
 .landing-avatar {
-  height: 30%;
+  margin-top: 5rem;
   height: 30% !important;
   width: 30% !important;
 }
@@ -8,11 +8,42 @@
 }
 
 .landing-text {
-  align-content: center;
-  justify-content: center;
-  display: flex;
-  height: 2rem;
-  padding: 1rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    line-height: 3rem;
+    font-size: 3em;
+    font-family: Lora;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0em;
+    color: rgb(255, 255, 255);
+}
+
+.landing-bio-text {
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  line-height: 2.2rem;
+  font-size: 2em;
+  font-family: Lora;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0em;
+  color: rgb(255, 255, 255);
+}
+
+.landing-page-margin-bottom {
+  padding-bottom: 3rem;
+}
+
+.landing-name {
+    margin-bottom: 3rem;
+    line-height: 6rem;
+    font-size: 7em;
+    font-family: Yrsa;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0em;
+    margin-bottom: 0px;
 }
 
 .landing-image {
