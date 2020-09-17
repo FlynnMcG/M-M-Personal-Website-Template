@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar, Paper } from "@material-ui/core";
+import { Avatar } from "@material-ui/core";
 import "./LandingPage.css";
 
 interface ILandingCardState {}
@@ -39,7 +39,7 @@ class LandingPage extends React.Component<
             <h5 className="landing-bio-text landing-page-margin-bottom">
 
               <div>
-                <a className="App-link" href={ "mailto:" + this.props.email}>{this.props.email}</a>
+                <a className="email-link" href={ "mailto:" + this.props.email}>{this.props.email}</a>
               </div>
               <div>{this.props.phone}</div>
             </h5>

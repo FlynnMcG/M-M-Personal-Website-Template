@@ -20,45 +20,52 @@ export const config = {
     },
     {
       id: 1,
-      title: "IBM WebSphere Liberty Profile",
+      title: "WebSphere Liberty Profile",
       image: "https://i.imgur.com/69M9X04.jpg",
-      description: "This is where the project description goes.",
+      description: `Enhancements to SAF Authorization API to allow application to get more information about an authorization failure.
+      Added audit capability to SAF Authorization API and created Kibana dashboard template for audit records.
+      Created Display Work modify command for MVS console that displayed server metrics such as active requests, slow requests, hung requests, and total requests.
+      Created Cache Clear Auth modify command that clears all users from the Liberty Authorization cache. This saves a system admin the trouble of having to restart the entire server when they want to clear the cache.
+      Implemented logic needed to allow non-persistent Enterprise Java Bean timers to propagate contexts such as the zWLMContext and SecurityContext.
+      Implemented REST API to change password for z/OS MVS Console. Allows application developer to build a form to change passwords and call it using.
+      `,
       organization: "IBM",
     },
     {
       id: 2,
-      title: "IBM Ovations zBounty Program",
+      title: "Ovations zBounty Program",
       image: "https://material-ui.com/static/images/cards/contemplative-reptile.jpg",
-      description: "This is where the project description goes.",
-      organization: "My Org",
+      description: `Collaborate on developing a portal for executives to post projects and match them with engineers seeking additional projects. Incorporate gamification feature to provide rewards-based system for engineers completing them. 
+      Tools used: React, Carbon UI, Swagger, Node, Docker, and DB2 SQL`,
+      organization: "IBM",
     },
     {
       id: 3,
       title: "VSAM Database Rest API",
-      image: "https://material-ui.com/static/images/cards/contemplative-reptile.jpg",
+      image: "https://i.imgur.com/88WVRjU.png?1",
       description: "This is where the project description goes.",
-      organization: "My Org",
+      organization: "IBM",
     },
     {
       id: 4,
       title: "Semantic Search Application",
       image: "https://material-ui.com/static/images/cards/contemplative-reptile.jpg",
       description: "This is where the project description goes.",
-      organization: "My Org",
+      organization: "IBM",
     },
     {
       id: 5,
-      title: "Project Title 6",
-      image: "https://material-ui.com/static/images/cards/contemplative-reptile.jpg",
+      title: "IHS PKCS11 Security Driver",
+      image: "https://i.imgur.com/eKcJ1AV.jpg",
       description: "This is where the project description goes.",
-      organization: "My Org",
+      organization: "IBM",
     },
     {
       id: 6,
-      title: "Project Title 7",
-      image: "https://material-ui.com/static/images/cards/contemplative-reptile.jpg",
+      title: "School Projects",
+      image: "https://i.imgur.com/kk9c4bj.png",
       description: "This is where the project description goes.",
-      organization: "My Org",
+      organization: "Binghamton University",
     },
     {
       id: 7,

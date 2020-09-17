@@ -3,4 +3,16 @@
   display: flex;
   align-content: center;
   margin: auto;
+  max-width: 345px;
+  min-height: 428px;
+}
+
+.project-card-image {
+  height: 250px;
+}
+
+.MuiCardContent-root {
+    padding: 16px;
+    max-height: 100px;
+    overflow: hidden;
 }

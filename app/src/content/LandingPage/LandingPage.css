@@ -5,6 +5,10 @@
 }
 
 .landing-page {
+  background-color: lightslategray;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
 }
 
 .landing-text {
@@ -32,7 +36,7 @@
 }
 
 .landing-page-margin-bottom {
-  padding-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .landing-name {
@@ -52,4 +56,13 @@
   justify-content: center;
   display: flex;
   margin: auto;
+}
+
+.email-link {
+  padding-bottom: .01px;
+  border-bottom: 1px solid #ffffff;
+  color: #fff;
+  text-decoration: none;
+  transition: .2s ease-out;
+  -webkit-transition: .2s ease-out;
 }
