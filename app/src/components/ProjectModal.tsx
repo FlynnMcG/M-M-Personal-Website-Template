@@ -28,7 +28,7 @@ class ProjectModal extends React.Component<
         <div className="project-modal-text-body">
           <h1 id="simple-modal-description">{this.props.title}</h1>
           <h4>{this.props.organization}</h4>
-          <p>{this.props.description}</p>
+          <div dangerouslySetInnerHTML={{__html: (this.props.description) ? this.props.description : ''}} />
         </div>
       </div>
     );
