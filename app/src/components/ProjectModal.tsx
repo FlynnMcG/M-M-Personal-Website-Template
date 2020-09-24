@@ -1,6 +1,7 @@
 import React from "react";
 import Modal from "@material-ui/core/Modal";
 import { Paper } from "@material-ui/core";
+import "./ProjectModal.css";
 
 interface IProjectModalState {}
 
@@ -21,11 +22,13 @@ class ProjectModal extends React.Component<
   render() {
     const body = (
       <div>
-        <img src={this.props.image} alt="Italian Trulli" />
+        <div className="modal-image-background"> 
+        <img className="modal-image" src={this.props.image} alt="Italian Trulli" />
+        </div>
         <div className="project-modal-text-body">
           <h1 id="simple-modal-description">{this.props.title}</h1>
           <h4>{this.props.organization}</h4>
-          <p>{this.props.description}</p>
+          <div dangerouslySetInnerHTML={{__html: (this.props.description) ? this.props.description : ''}} />
         </div>
       </div>
     );
@@ -44,20 +47,9 @@ class ProjectModal extends React.Component<
             ? this.props.handleClose()
             : console.log("No handleClose exits");
         }}
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
+        className="project-modal"
       >
-        <Paper
-          style={{
-            position: "absolute",
-            width: "auto",
-            backgroundColor: "white",
-            border: "2px solid #000",
-          }}
-        >
+        <Paper className="project-modal-paper">
           {body}
         </Paper>
       </Modal>

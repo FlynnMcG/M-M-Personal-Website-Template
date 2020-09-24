@@ -1,3 +1,46 @@
 .project-modal-text-body {
-  margin: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  line-height: 1.5rem;
+  font-size: 1.5em;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0em;
+  color: rgb(0, 0, 0);
+}
+
+.modal-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 750px;
+  max-height: 500px;
+}
+
+.modal-image-background {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #DCDCDC;
+}
+
+.project-modal {
+  display: block;
+  overflow: auto;
+  width: 100%;
+  max-width: 65%;
+  max-height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+
+.project-modal-paper {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  outline-color: #DCDCDC;
 }

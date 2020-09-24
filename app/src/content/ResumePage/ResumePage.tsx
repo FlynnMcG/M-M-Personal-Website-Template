@@ -2,7 +2,7 @@ import React from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 import { Link } from "react-router-dom";
 import PDF from "../../data/documents/Resume.pdf";
-import { AppBar, Container, Button, Toolbar, IconButton } from "@material-ui/core";
+import { AppBar, Container, Toolbar, IconButton } from "@material-ui/core";
 import GetAppIcon from "@material-ui/icons/GetApp";
 import "./ResumePage.css";
 

@@ -4,7 +4,7 @@ export const config = {
   github: "https://github.com",
   linkedin: "https://www.linkedin.com/feed/",
   twitter: "https://twitter.com",
-  profile_picture: "https://i.pinimg.com/originals/a1/30/86/a130864e6d6db6899ca996b0691113f8.jpg",
+  profile_picture: "https://upload.wikimedia.org/wikipedia/en/8/86/Avatar_Aang.png",
   location: "New York",
   bio: "about me",
   phone: "1234567890",
