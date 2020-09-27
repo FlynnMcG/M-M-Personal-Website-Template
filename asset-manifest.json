@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/M-M-Personal-Website-Template/static/css/main.de362d3b.chunk.css",
+    "main.js": "/M-M-Personal-Website-Template/static/js/main.9e1dbb9d.chunk.js",
+    "main.js.map": "/M-M-Personal-Website-Template/static/js/main.9e1dbb9d.chunk.js.map",
+    "runtime-main.js": "/M-M-Personal-Website-Template/static/js/runtime-main.97a8b44f.js",
+    "runtime-main.js.map": "/M-M-Personal-Website-Template/static/js/runtime-main.97a8b44f.js.map",
+    "static/js/2.bf1c4fa2.chunk.js": "/M-M-Personal-Website-Template/static/js/2.bf1c4fa2.chunk.js",
+    "static/js/2.bf1c4fa2.chunk.js.map": "/M-M-Personal-Website-Template/static/js/2.bf1c4fa2.chunk.js.map",
+    "index.html": "/M-M-Personal-Website-Template/index.html",
+    "precache-manifest.90602ac9a06e667a5e29a4f7f23bfc61.js": "/M-M-Personal-Website-Template/precache-manifest.90602ac9a06e667a5e29a4f7f23bfc61.js",
+    "service-worker.js": "/M-M-Personal-Website-Template/service-worker.js",
+    "static/css/main.de362d3b.chunk.css.map": "/M-M-Personal-Website-Template/static/css/main.de362d3b.chunk.css.map",
+    "static/js/2.bf1c4fa2.chunk.js.LICENSE.txt": "/M-M-Personal-Website-Template/static/js/2.bf1c4fa2.chunk.js.LICENSE.txt",
+    "static/media/Resume.pdf": "/M-M-Personal-Website-Template/static/media/Resume.f12b2929.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97a8b44f.js",
+    "static/js/2.bf1c4fa2.chunk.js",
+    "static/css/main.de362d3b.chunk.css",
+    "static/js/main.9e1dbb9d.chunk.js"
+  ]
+}
