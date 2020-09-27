@@ -26,13 +26,13 @@ class Header extends React.Component<IHeaderProps, IHeaderState> {
         <AppBar position="fixed" color="primary">
           <Toolbar>
             <div className="header-button-group-left">
-              <Button color="inherit" href={"/"}>
+              <Button color="inherit" href={"/M-M-Personal-Website-Template"}>
                 {name}
               </Button>
-              <Button color="inherit" href={"/projects"}>
+              <Button color="inherit" href={"/M-M-Personal-Website-Template/projects"}>
                 Projects
               </Button>
-              <Button color="inherit" href="/resume">
+              <Button color="inherit" href="/M-M-Personal-Website-Template/resume">
                 Resume
               </Button>
             </div>
