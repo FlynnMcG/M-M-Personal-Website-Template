@@ -24,7 +24,7 @@ function App() {
       <div className="app-content">
         <Router history={history}>
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/M-M-Personal-Website-Template">
               <LandingPage
                 firstName={config.firstName}
                 lastName={config.lastName}
@@ -36,10 +36,10 @@ function App() {
                 currentRole={config.current_role}
               ></LandingPage>
             </Route>
-            <Route exact path="/resume">
+            <Route exact path="/M-M-Personal-Website-Template/resume">
               <ResumePage></ResumePage>
             </Route>
-            <Route exact path="/projects">
+            <Route exact path="/M-M-Personal-Website-Template/projects">
               <ProjectPage projects={config.projects}></ProjectPage>
             </Route>
           </Switch>
